@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakash — Embedded Systems Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <a class="nav-logo" href="#">AK.dev</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg-dot"></div>
+        <div class="hero-grid">
+            <div class="hero-text">
+                <div class="hero-eyebrow">Embedded Systems Engineer</div>
+                <h1 class="hero-name">Hello, I'm<br><em>Aakash.</em></h1>
+                <p class="hero-bio">
+                    I build things that bridge the physical and digital — from low-level firmware on ESP32 to power
+                    electronics, wireless protocols, and intelligent hardware systems.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View my work →</a>
+                    <a href="#contact" class="btn-ghost">Get in touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="circuit-card">
+                    <div class="card-inner">
+                        <div class="card-tag">// system.status</div>
+                        <div class="card-metrics">
+                            <div class="metric">
+                                <div class="metric-num">3+</div>
+                                <div class="metric-label">YRS_EXP</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-num">12+</div>
+                                <div class="metric-label">PROJECTS</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-num">IoT</div>
+                                <div class="metric-label">DOMAIN</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-num">IN</div>
+                                <div class="metric-label">LOCATION</div>
+                            </div>
+                        </div>
+                        <div class="card-chips">
+                            <span class="chip">ESP32</span>
+                            <span class="chip">C/C++</span>
+                            <span class="chip">PlatformIO</span>
+                            <span class="chip warm">Hardware</span>
+                            <span class="chip warm">Power</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-max">
+            <div class="about-grid">
+                <div class="about-left reveal">
+                    <div class="section-label">About me</div>
+                    <h2 class="section-title">Engineer.<br>Maker.<br>Problem solver.</h2>
+                </div>
+                <div class="about-right reveal">
+                    <p class="about-para">
+                        I'm an electronics enthusiast and embedded systems developer based in <strong>India</strong>,
+                        passionate about building hardware that's reliable, efficient, and cleverly engineered. My work
+                        spans from writing bare-metal firmware to designing power electronics and integrating cloud
+                        connectivity.
+                    </p>
+                    <p class="about-para">
+                        I thrive at the intersection of hardware and software — whether it's tuning an LC filter for a
+                        buck converter, wiring up OTA update pipelines, or designing battery management systems. Every
+                        project is an opportunity to learn something new at the circuit level.
+                    </p>
+                    <p class="about-para">
+                        When I'm not deep in PlatformIO or probing signals on an oscilloscope, I enjoy studying market
+                        dynamics and electronics business ecosystems across India.
+                    </p>
+                    <div class="about-facts">
+                        <div class="fact">
+                            <div class="fact-key">BASED IN</div>
+                            <div class="fact-val">India 🇮🇳</div>
+                        </div>
+                        <div class="fact">
+                            <div class="fact-key">PRIMARY MCU</div>
+                            <div class="fact-val">ESP32</div>
+                        </div>
+                        <div class="fact">
+                            <div class="fact-key">IDE</div>
+                            <div class="fact-val">PlatformIO</div>
+                        </div>
+                        <div class="fact">
+                            <div class="fact-key">FOCUS</div>
+                            <div class="fact-val">IoT & Power</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-max">
+            <div class="projects-header reveal">
+                <div>
+                    <div class="section-label">Projects</div>
+                    <h2 class="section-title">Selected work</h2>
+                </div>
+                <p class="section-sub">Hardware meets software — things I've built and shipped.</p>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card featured reveal">
+                    <div class="project-thumb">
+                        <div class="thumb-pattern"
+                            style="background: linear-gradient(135deg, #e8f0eb 0%, #d0e4d5 100%);"></div>
+                        <div
+                            style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(45,90,61,0.06) 10px,rgba(45,90,61,0.06) 11px);">
+                        </div>
+                        <div class="thumb-icon">🔋</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-tag">Power Electronics</span>
+                            <span class="project-tag">Hardware</span>
+                        </div>
+                        <div class="project-title">3S10P Li-Ion Battery Pack</div>
+                        <p class="project-desc">Designed a high-capacity 18650 battery pack with interactive cell layout
+                            visualization, BMS integration, and capacity calculations. Covers cell balancing, thermal
+                            management, and safe charge/discharge profiles.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-thumb">
+                        <div class="thumb-pattern"
+                            style="background: linear-gradient(135deg, #f0f0ea 0%, #e2e2d8 100%);"></div>
+                        <div
+                            style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 8px,rgba(0,0,0,0.04) 8px,rgba(0,0,0,0.04) 9px);">
+                        </div>
+                        <div class="thumb-icon">📡</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-tag">ESP32</span>
+                            <span class="project-tag">OTA</span>
+                        </div>
+                        <div class="project-title">OTA Firmware Update System</div>
+                        <p class="project-desc">Webpage-based OTA update pipeline using WebServer and Update libraries.
+                            Non-blocking architecture with ArduinoOTA fallback.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-thumb">
+                        <div class="thumb-pattern"
+                            style="background: linear-gradient(135deg, #f5eddd 0%, #eddfc8 100%);"></div>
+                        <div
+                            style="position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 8px,rgba(0,0,0,0.04) 8px,rgba(0,0,0,0.04) 9px);">
+                        </div>
+                        <div class="thumb-icon">👁️</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-tag">Vision</span>
+                            <span class="project-tag">Flask</span>
+                        </div>
+                        <div class="project-title">ESP32 Camera OCR Pipeline</div>
+                        <p class="project-desc">OV7670 camera capturing QQVGA frames over HTTP POST to a Python
+                            Flask/Tesseract server, with results on an SSD1306 OLED display.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-thumb">
+                        <div class="thumb-pattern"
+                            style="background: linear-gradient(135deg, #e8f0eb 0%, #f0f5f1 100%);"></div>
+                        <div
+                            style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent,transparent 10px,rgba(45,90,61,0.05) 10px,rgba(45,90,61,0.05) 11px);">
+                        </div>
+                        <div class="thumb-icon">☁️</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-tag">Supabase</span>
+                            <span class="project-tag">IoT</span>
+                        </div>
+                        <div class="project-title">ESP32 Cloud Data Logger</div>
+                        <p class="project-desc">Real-time sensor data logging to Supabase via REST API using HTTPClient
+                            and ArduinoJson with a non-blocking loop architecture.</p>
+                    </div>
+                </div>
+
+                <div class="project-card featured reveal">
+                    <div class="project-thumb">
+                        <div class="thumb-pattern"
+                            style="background: linear-gradient(135deg, #1a1a18 0%, #2d2d28 100%);"></div>
+                        <div
+                            style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 12px,rgba(255,255,255,0.03) 12px,rgba(255,255,255,0.03) 13px);">
+                        </div>
+                        <div class="thumb-icon">⚡</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-tag">PWM</span>
+                            <span class="project-tag">MOSFET</span>
+                            <span class="project-tag">Filtering</span>
+                        </div>
+                        <div class="project-title">PWM Dimmer & LC Filter Stage</div>
+                        <p class="project-desc">IRLZ44N/2N7000 MOSFET-based LED dimming circuit driven by ESP32 PWM,
+                            with an LC filter stage for clean analog output. Includes gate resistor design, freewheeling
+                            Schottky diodes, and component selection for minimal ripple.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-max">
+            <div class="skills-layout">
+                <div class="reveal">
+                    <div class="section-label">Skills</div>
+                    <h2 class="section-title">What I work with</h2>
+                    <p class="section-sub" style="margin-top:1rem;">Core competencies built through real hardware
+                        projects.</p>
+
+                    <div class="skills-groups">
+                        <div class="skill-group">
+                            <div class="skill-group-title">Firmware & Embedded</div>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">ESP32 / Arduino</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">C / C++</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">PlatformIO</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">RTOS / Zephyr</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-title">Hardware & Electronics</div>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">Power Electronics</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Circuit Design</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:78%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">I2C / SPI / UART</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-title">Software & Cloud</div>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">Python / Flask</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:72%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Supabase / REST</span>
+                                    <div class="skill-bar-wrap">
+                                        <div class="skill-bar" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal">
+                    <div class="skill-group-title" style="margin-bottom:1.25rem;">Tools & Technologies</div>
+                    <div class="tools-cloud">
+                        <div class="tool-pill"><span class="tool-dot"></span>ESP32</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>PlatformIO</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Arduino IDE</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>STM32</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>IRLZ44N</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>LAN8720</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>TPS63020</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>XL6009</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>AP2112K</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>IP5306</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>BQ25895</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>SSD1306</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>OV7670</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>TFT_eSPI</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>LVGL</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>U8g2</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>ArduinoJson</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>LittleFS</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Supabase</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Flask</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Tesseract OCR</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Git</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Python</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Oscilloscope</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Multimeter</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>KiCad</div>
+                        <div class="tool-pill"><span class="tool-dot"></span>Fritzing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-max">
+            <div class="contact-inner reveal">
+                <div class="section-label" style="justify-content:center;">Contact</div>
+                <h2 class="contact-title">Let's build something together.</h2>
+                <p class="contact-sub">
+                    Have a hardware project, collaboration, or just want to talk embedded systems? I'd love to hear from
+                    you.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:aakash@example.com" class="contact-link">
+                        <span class="contact-link-icon">✉️</span>
+                        <span class="contact-link-text">
+                            <span class="contact-link-label">Email</span>
+                            <span class="contact-link-value">aakash@example.com</span>
+                        </span>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="contact-link">
+                        <span class="contact-link-icon">⌥</span>
+                        <span class="contact-link-text">
+                            <span class="contact-link-label">GitHub</span>
+                            <span class="contact-link-value">github.com/aakash</span>
+                        </span>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="contact-link">
+                        <span class="contact-link-icon">🔗</span>
+                        <span class="contact-link-text">
+                            <span class="contact-link-label">LinkedIn</span>
+                            <span class="contact-link-value">linkedin.com/in/aakash</span>
+                        </span>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <span>© 2026 Aakash — Built with intention.</span>
+        <span>Embedded Systems · IoT · Power Electronics</span>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
